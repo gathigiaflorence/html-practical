@@ -33,7 +33,13 @@ The site ia at, https://gathigiaflorence.github.io/html-practical/
 
 ## 🐳 Docker Setup
 
-1. **Build Docker image:**
-```bash
-docker build -t wambuiflorence/html5-css3-site:lab2 .
+Docker Commands
+- docker build -t wambuiflorence/html5-css3-site:lab2
+- docker login
+- docker push wambuiflorence/html5-css3-site:lab2
+- docker tag wambuiflorence/html5-css3-site:lab2 wambuiflorence/html5-css3-site:latest
+- docker push wambuiflorence/html5-css3-site:latest
+
+
+
 
